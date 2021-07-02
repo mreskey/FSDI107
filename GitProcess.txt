@@ -1,0 +1,23 @@
+# start the repo
+git init
+
+# check status
+git status
+
+# commit files (local copy)
+git add .       <- stage all the files for commiting
+git commit -m 'some message'   <- create the commit
+
+
+
+# first time you push
+ create the repo
+ set the repo url   (git remote add origin <URL>)
+ authenticate git -> github
+ push (git push -u origin master)
+
+
+ # next time you want to push:
+ git add .
+ git commit -m 'some message' 
+ git push
